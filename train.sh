@@ -1,0 +1,19 @@
+python3 main.py --train_imagedir_path  "dataset/session1"\
+                --test_imagedir_path  "dataset/test"\
+                --n_images 10\
+                --n_steps 1\
+                --u,v 128 128\
+                --countW 1000\
+                --nbins 100\
+                --F 10\
+                --h 30\
+                --lambd 9.090909090909092\
+                --sigma 5.6179\
+                --A_dash 5\
+                --S 10\
+                --a0 2\
+                --r 1\
+                --BATCH 32\
+                --dist_fn_method "cosine_l2_norm"\
+                --f_beta 0.815\
+                --model_save_path "models/modelPATH"
