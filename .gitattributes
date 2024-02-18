@@ -1,0 +1,2 @@
+models/model0 filter=lfs diff=lfs merge=lfs -text
+models/model0_15epochs filter=lfs diff=lfs merge=lfs -text
