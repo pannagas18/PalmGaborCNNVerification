@@ -5,7 +5,7 @@ from torch.utils.data import DataLoader
 import torchvision.transforms.v2 as v2
 import torch.optim as optim
 from get_filters.FixedScale_and_AdaptiveMultiScaleGaborFilters import FixedScale_and_AdaptiveMultiScaleGaborFilters
-from GaborNet import GaborNet
+from conv import GaborNet
 import CTorchClasses as C
 from create_Dataset import PalmprintTrainDataset_TripletMarginLoss, PalmprintTestDataset_TripletMarginLoss
 # from torcheval.metrics.functional import binary_f1_score
